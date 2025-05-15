@@ -1,0 +1,30 @@
+.callout {
+    max-width: 500px;
+    margin: 8px;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: burlywood;
+    color: snow;
+}
+
+.callout img {
+    float: right;
+    margin: 0 0 20 20px;
+    border: 1px solid black;
+    padding: 1px;
+    background-color: white;
+    width: 130;
+    height: auto;
+}
+
+blockquote {
+    margin: 5px;
+}
+
+cite {
+    display: block;
+    border-top: 1px dotted black;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 20px;
+}
