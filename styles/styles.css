@@ -4,6 +4,13 @@
     --main-height: auto;
     --text-color: white;
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
 }
 
 nav {
@@ -28,39 +35,65 @@ img {
     padding: 2px;
     box-shadow: 0 0 15px var(--text-color);
 
+
+
 }
 
 p {
     padding: 0;
+    color: rgb(0,0,0,.7);
+
+
 }
 
 main {
     max-width: 1000px;
 }
 
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+
+}
+
+
+
 aside {
     width: 500px;
-    margin: 10px;
-    border: 1px solid rgb(0, 0, 0, 0.5);
-    padding: 15px;
-    background-color: var(--text-color);
-    color: #141414;
     text-align: var(--main-text-align);
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: var(--main-text-align);
+    
+
 
 }
 
 main img {
     width: 150px;
     height: var(--main-height);
+    float: right;
+    
+
 }
 
 footer {
     margin-top: 25px;
     border-top: 1px solid #404040;
     text-align: var(--main-text-align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 20px;
+    border: 1px solid rgb(0,0,0,.1);
+    padding: 15px;
+    background-color: var(--text-color);
+    color: rgb(0,0,0,.8); 
+    
 }
