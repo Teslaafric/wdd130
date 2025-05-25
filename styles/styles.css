@@ -3,15 +3,14 @@
     --main-text-align: center;
     --main-height: auto;
     --text-color: white;
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-
+}
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
     }
 
-}
+
 
 nav {
     background-color: var(--heading-background-color);
@@ -34,16 +33,11 @@ img {
     border: 1px solid #787171;
     padding: 2px;
     box-shadow: 0 0 15px var(--text-color);
-
-
-
 }
 
 p {
     padding: 0;
     color: rgb(0,0,0,.7);
-
-
 }
 
 main {
@@ -57,8 +51,6 @@ aside h2 {
 
 }
 
-
-
 aside {
     width: 500px;
     text-align: var(--main-text-align);
@@ -68,9 +60,6 @@ aside {
 aside img {
     width: 200px;
     height: var(--main-text-align);
-    
-
-
 }
 
 main img {
