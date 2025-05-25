@@ -20,7 +20,7 @@ nav {
 nav a {
     color: var(--text-color);
     display: block;
-    padding: 20px
+    padding: 10px
 }
 
 h1 {
@@ -59,7 +59,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: var(--main-text-align);
+    height: var(--main-height);
 }
 
 main img {
