@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --padding: 10px;
   --image-width: 200px;
@@ -18,6 +23,7 @@ h1 {
   color: darkblue;
 }
 main img {
+  float: right;
   width: var(--image-width);
   border: var(--image-border);
   height: var(--image-ratio-height);
@@ -26,26 +32,37 @@ main img {
 }
 p {
   padding: 0;
+
 }
 main {
   max-width: 800px;
   
 }
 aside {
-  background-color: #c9c428;
-  color: #080808;
-  padding: var(--padding);
-  border: var(--image-border);
-  margin: 20px;
   width: 600px;
   text-align: var(--layout-text-align);
+  position: relative;
+}
+aside h2 {
+  position: absolute;
+  left: 210px;
+  top: 30px;
 }
 img {
   width: var(--image-width);
   height: var(--image-ratio-height);
+  
 }
 footer {
   text-align: var(--layout-text-align);
   border-top: 1px solid gray;
   margin-top: 30px;
+}
+/* Class Selectors*/
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: var(--image-border);
+  background-color: #dbd9a5;
+  color: #242424;
 }
