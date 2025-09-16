@@ -5,7 +5,7 @@
 }
 :root {
   --padding: 10px;
-  --image-width: 200px;
+  --image-width: 100px;
   --image-ratio-height: auto;
   --image-border: 1px solid gray;
   --layout-text-align: center;
@@ -36,17 +36,22 @@ p {
 }
 main {
   max-width: 800px;
-  
 }
 aside {
+  background-color: #c9c428;
+  color: #080808;
+  padding: var(--padding);
+  border: var(--image-border);
+  margin: 20px;
   width: 600px;
   text-align: var(--layout-text-align);
   position: relative;
 }
 aside h2 {
   position: absolute;
-  left: 210px;
+  left: 250px;
   top: 30px;
+  font-size: smaller;
 }
 img {
   width: var(--image-width);

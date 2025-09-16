@@ -22,18 +22,28 @@ div {
 }
 
 .flex {
+    display: flex;
     background-color: #aba;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
 
 }
 
 .grid {
     background-color: #abb;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     /* enter declarations here */
 
 }
 
 .container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
     /* write declarations here */
 
 }
@@ -41,14 +51,18 @@ div {
 .two {
     background-color: #ace;
     height: 100px;
+   
 }
 
 .container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     /* write declarations here */
 
 }
 
 .columns-3 {
+    grid-column: 1/4
     /* write declaration here */
 
 }
