@@ -54,8 +54,8 @@ aside h2 {
   font-size: smaller;
 }
 img {
-  width: var(--image-width);
-  height: var(--image-ratio-height);
+  width: 200px;
+  height: auto;
   
 }
 footer {
